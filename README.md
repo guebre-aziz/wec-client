@@ -1,6 +1,6 @@
 # weConnect [client side]
 
-weConnect's a react social web-app
+weConnect's a react social network web-app
 
 https://weconnect-wec.herokuapp.com/
 
