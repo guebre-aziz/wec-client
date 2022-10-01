@@ -2,6 +2,8 @@
 
 weConnect's a react social web-app
 
+https://weconnect-wec.herokuapp.com/
+
 ## Description
 
 This is the client side of the project weConnect.
