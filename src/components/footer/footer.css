@@ -1,0 +1,26 @@
+footer {
+  margin-top: 200px;
+  background-color: var(--dark-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 20px 20px 0 0;
+}
+
+.footerIconContainer {
+  color: white;
+  max-width: xl;
+  display: flex;
+  gap: 1em;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footerLogo {
+  font-size: 36px;
+  margin-left: 20px;
+  font-family: "Lobster";
+  color: white;
+  cursor: pointer;
+}

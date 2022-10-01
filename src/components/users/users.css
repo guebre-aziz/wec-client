@@ -1,0 +1,39 @@
+.usersContainer {
+  background-color: white;
+  border-radius: var(--box-radius);
+  padding: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.usersContainer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.usersChild {
+  display: flex;
+  border-radius: var(--box-radius);
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.usersChild:hover {
+  background-color: var(--peach-puff);
+}
+
+.usersChild p {
+  font-size: small;
+}
+
+.usersImg {
+  padding-right: 15px;
+}
+
+.usersImg img {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

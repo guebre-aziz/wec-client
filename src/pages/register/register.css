@@ -1,0 +1,61 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets//images/social1.jpg");
+  background-size: cover;
+}
+
+.registerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+}
+
+.registerLogo {
+  font-size: 50px;
+  font-family: "Lobster";
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.registerLeft,
+.registerRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registerBox {
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginRegisterButton {
+  width: 60%;
+  align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.registerDesc {
+  font-size: 24px;
+  color: var(--dark-text);
+}

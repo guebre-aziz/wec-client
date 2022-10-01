@@ -1,0 +1,80 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("../../assets//images/social1.jpg");
+  background-size: cover;
+}
+
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 80%;
+}
+
+.loginLeft,
+.loginRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-family: "Lobster";
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.loginBox {
+  height: 300px;
+  padding: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.loginInput {
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginRegisterButton {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #14b72a;
+  padding: 5px;
+
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginDesc {
+  font-size: 24px;
+  color: var(--dark-text);
+}

@@ -1,0 +1,36 @@
+.resultsTab {
+  width: 300px;
+  position: absolute;
+  top: 60px;
+  background: white;
+  border-radius: var(--box-radius);
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.resultsTab ul {
+  padding-left: 15px;
+  list-style: none;
+}
+
+.elem {
+  display: flex;
+  margin: 10px 0 10px 0;
+  border-radius: var(--box-radius);
+  cursor: pointer;
+}
+
+.elem:hover {
+  background-color: var(--peach-puff);
+}
+
+.elemImg {
+  padding-right: 15px;
+}
+
+.elemImg img {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

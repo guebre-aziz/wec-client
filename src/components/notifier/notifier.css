@@ -1,0 +1,16 @@
+.notifier {
+  display: block;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  padding: auto;
+  transition: all;
+  transition-duration: 200ms;
+  z-index: 10000;
+  font-size: large;
+  color: white;
+  border-radius: var(--box-radius);
+  padding: 10px 0;
+  margin: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
