@@ -13,7 +13,6 @@ It' a social platform where you can get registred, logged in, pubblic posts and 
 
 * Download locally the project folder
 * In the project root, install dependencies with: "npm install"
-* set enviroment variables in "config.env" with : REACT_APP_SERVER_URL=[your-wec-server-url]/api/v1/
 
 ### Executing program
 
